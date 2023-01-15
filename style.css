@@ -35,7 +35,7 @@ header {
 
 aside {
   height: calc(100% - 50px);
-  width: 7%;
+  width: 10%;
   padding: 10px;
   background-color: green;
 }
@@ -46,7 +46,7 @@ main {
   overflow: auto;
   display: flex;
   flex-direction: column;
-  width: 93%;
+  width: 90%;
 }
 
 footer {
