@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   color: #000000;
+  height: 100%;
 }
 
 .wrap {
@@ -23,17 +28,32 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
+  padding: 10px;
   z-index: 200;
+  background-color: pink;
 }
 
 aside {
-  width: 30%;
-  padding: 15px;
-  margin: 15px;
-  float: right;
-  font-style: italic;
+  width: 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  background-color: green;
 }
 
 main {
+  background-color: aqua;
+  padding-left: 7%;
+  flex: 1 1 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
   padding: 15px;
+  background-color: #ffffff;
 }
